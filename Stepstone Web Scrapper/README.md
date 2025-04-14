@@ -107,6 +107,8 @@ GitHub :  [https://github.com/samithcsachi/PythonProjects/blob/main/Stepstone%20
 
 Kaggle : [https://www.kaggle.com/code/samithsachidanandan/stepstone-web-scrapper](https://www.kaggle.com/code/samithsachidanandan/stepstone-web-scrapper)
 
+Medium Article : [https://medium.com/@samithc/selenium-web-scraping-tutorial-scrape-stepstone-job-listings-in-20-minutes-f4dc0bcbcecb](https://medium.com/@samithc/selenium-web-scraping-tutorial-scrape-stepstone-job-listings-in-20-minutes-f4dc0bcbcecb)
+
 ## Contribution
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change or contribute.
