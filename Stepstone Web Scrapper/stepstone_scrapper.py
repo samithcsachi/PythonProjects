@@ -136,7 +136,7 @@ def get_jobs(keyword,num_jobs ):
                     published_days = -1
 
                 try:
-                    salary_range = driver.find_element(By.XPATH, '//li[contains(@class, "salary")]//span[@data-genesis-element="TEXT"]/span').text
+                    salary_range = driver.find_element(By.XPATH,'//span[@data-at="salary-range"]').text
                 except NoSuchElementException:
                     salary_range = -1
 
@@ -180,6 +180,6 @@ def get_jobs(keyword,num_jobs ):
 
 # Calling the function and saving the details in csv file.
 
-df = get_jobs('data scientist',100)
+df = get_jobs('data scientist',500)
 
-df.to_csv('stepstone_jobs.csv', index = False)
+df.to_csv('stepstone_jobs.csv', encoding='utf-8', index=False)
